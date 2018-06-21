@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: bcprov-jdk15on-1.58.jar commons-lang3-3.7.jar
+Main-Class: Client.GUI_v2
+

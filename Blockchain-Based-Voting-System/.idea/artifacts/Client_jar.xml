@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="Client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Client_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Client.jar">
+        <element id="module-output" name="Client" />
+        <element id="module-output" name="Common" />
+      </element>
+      <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.58" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
+    </root>
+  </artifact>
+</component>

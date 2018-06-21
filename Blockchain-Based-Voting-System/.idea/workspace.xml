@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Client:jar" />
+      <artifact name="Miner:jar" />
+      <artifact name="Server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7f25a47-ec75-45c6-948b-e1687ed4b770" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Blockchain_Based_Voting_System$ServerMain.ic" NAME="ServerMain Coverage Results" MODIFIED="1527340720800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Blockchain_Based_Voting_System$SeqTestClient.ic" NAME="SeqTestClient Coverage Results" MODIFIED="1527721303465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Client.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blockchain_Based_Voting_System$GUI_v2.ic" NAME="GUI_v2 Coverage Results" MODIFIED="1527016983761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Client.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlockChain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Miner/src/Miner/BlockChain/BlockChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Miner/src/Miner/BlockChain/TxHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqTestClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/src/Client/SeqTestClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1541">
+              <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockChainHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Miner/src/Miner/BlockChain/BlockChainHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="71" column="121" selection-start-line="71" selection-start-column="121" selection-end-line="71" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenCreation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/Common/Transaction/TokenCreation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="e#815#816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="P2P.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Miner/src/Miner/P2P.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="144" column="71" selection-start-line="144" selection-start-column="71" selection-end-line="144" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>signature is</find>
+      <find>getinsta</find>
+      <find>mon.</find>
+      <find>TextAr</find>
+      <find>textAre</find>
+      <find>0</find>
+      <find>261</find>
+      <find>miner rm</find>
+      <find>write(</find>
+      <find>out.wr</find>
+      <find>connection</find>
+      <find>out.wri</find>
+      <find>miner 0</find>
+      <find>main(</find>
+      <find>DBH</find>
+      <find>sync</find>
+      <find>ServerConnectionHandler.</find>
+      <find>broadcast</find>
+      <find>thread</find>
+      <find>blockChain</find>
+      <find>DBHandler</find>
+      <find>DBHAN</find>
+      <find>textare</find>
+      <find>rwlo</find>
+      <find>token</find>
+      <find>token_</find>
+      <find>new Bl</find>
+      <find>usedTo</find>
+      <find>usedTokens</find>
+      <find>usedtokens</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ConnectionHandler</replace>
+      <replace>hashAlgorithm</replace>
+      <replace />
+      <replace>algorithm</replace>
+      <replace>Registrar</replace>
+      <replace>GetBlocksResponse</replace>
+      <replace>4001</replace>
+      <replace>4000</replace>
+      <replace>ServerKeyKeeper</replace>
+      <replace>private static</replace>
+      <replace>public static</replace>
+      <replace>MinerKeyKeeper.</replace>
+      <replace>MutablePair&lt;</replace>
+      <replace>last.get().</replace>
+      <replace>election</replace>
+      <replace>eid</replace>
+      <replace>Server disconnected!</replace>
+      <replace>ServerConnectionHandler</replace>
+      <replace>file.getPath()</replace>
+      <replace>System.out.println</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Common/src/Common/Response</dir>
+      <dir>$PROJECT_DIR$/Server/src/Server</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Common/src/Common/MinerInfo.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/User/Job.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Command/StartElection.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Block/FinalBlock.java" />
+        <option value="$PROJECT_DIR$/Server/Server.iml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Common/src/Common/User/User.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/Registrar/EmailSender.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Job.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/MinerUIHandler.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/ConnectionHandler/ConnectionHandlerThread/ServerConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Common.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/IdNamePair.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Command/GenerateNextBlock.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Block/BlockFrame.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/GUI.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/EmailSender.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Election.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/MinerKeyKeeper.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Block/GenesisBlock.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/MinerMainNonGUI.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/Registrar/Registrar.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/ServerDBHandler.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/BlockChain/TransactionPool.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Request/GetElectionResult.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Command/Request/GetElectionResult.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Crypto/Crypto.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/Dispatcher/DispatcherThread.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/MinerDBHandler.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/CommandHandler/CommandHandler.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/ConnectionHandler/ConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/ConnectionHandler/MinerConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/ConnectionHandler/ServerConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/MinerMain.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/MinerMainCLI.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/ServerEmailSender.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/ServerMain.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/Email.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/Registrar/Authenticator.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/ConnectionHandler/ConnectionHandlerThread/ClientConnectionThread.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/ConnectionHandler/ConnectionHandlerThread/MinerConnectionThread.java" />
+        <option value="$PROJECT_DIR$/Server/src/Server/Dispatcher/DispatcherMonitor.java" />
+        <option value="$PROJECT_DIR$/TODO.txt" />
+        <option value="$PROJECT_DIR$/Client/src/Client/GUI_v2.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Block/Block.java" />
+        <option value="$PROJECT_DIR$/Common/src/Common/Transaction/TokenCreation.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/BlockChain/BlockChain.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/BlockChain/BlockChainHandler.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/P2P.java" />
+        <option value="$PROJECT_DIR$/Miner/src/Miner/BlockChain/TxHandler.java" />
+        <option value="$PROJECT_DIR$/Client/src/Client/SeqTestClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Blockchain-Based-Voting-System" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="1920" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="SeqTestClient.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="TLS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Token" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="BlockChain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="CommandHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="ConnectionHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Miner" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ConnectionHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ConnectionHandler" type="462c0819:PsiDirectoryNode" />
+              <item name="ConnectionHandlerThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Dispatcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Registrar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockchain-Based-Voting-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockchain-Based-Voting-System" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="ResponseMonitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="blockchain-based-voting-system" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Miner" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SeqTestClient">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="GUI_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.GUI_v2" />
+      <module name="Client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Miner.MinerMain" />
+      <module name="Miner" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Miner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinerMainCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Miner.MinerMainCLI" />
+      <module name="Miner" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Miner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SeqTestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.SeqTestClient" />
+      <module name="Client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.ServerMain" />
+      <module name="Server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MinerMain" />
+      <item itemvalue="Application.GUI_v2" />
+      <item itemvalue="Application.MinerMainCLI" />
+      <item itemvalue="Application.SeqTestClient" />
+      <item itemvalue="Application.ServerMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SeqTestClient" />
+        <item itemvalue="Application.ServerMain" />
+        <item itemvalue="Application.GUI_v2" />
+        <item itemvalue="Application.MinerMainCLI" />
+        <item itemvalue="Application.MinerMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7f25a47-ec75-45c6-948b-e1687ed4b770" name="Default" comment="" />
+      <created>1512212873562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512212873562</updated>
+      <workItem from="1512212874810" duration="2463000" />
+      <workItem from="1512215353909" duration="16596000" />
+      <workItem from="1512319852896" duration="15452000" />
+      <workItem from="1512420795337" duration="18449000" />
+      <workItem from="1512445689784" duration="161000" />
+      <workItem from="1512493873188" duration="6662000" />
+      <workItem from="1512505894238" duration="1641000" />
+      <workItem from="1512507838690" duration="675000" />
+      <workItem from="1512910145473" duration="14088000" />
+      <workItem from="1513011567780" duration="10431000" />
+      <workItem from="1513029055650" duration="3819000" />
+      <workItem from="1513082454889" duration="603000" />
+      <workItem from="1513091646568" duration="13804000" />
+      <workItem from="1513121702328" duration="346000" />
+      <workItem from="1513124016504" duration="1150000" />
+      <workItem from="1513175116394" duration="2720000" />
+      <workItem from="1513178100243" duration="14832000" />
+      <workItem from="1513200435792" duration="71000" />
+      <workItem from="1513200525833" duration="8379000" />
+      <workItem from="1513209084359" duration="84000" />
+      <workItem from="1513209265340" duration="19000" />
+      <workItem from="1513209357979" duration="41000" />
+      <workItem from="1513209723032" duration="329000" />
+      <workItem from="1513210163970" duration="400000" />
+      <workItem from="1513210617132" duration="10000" />
+      <workItem from="1513210782498" duration="994000" />
+      <workItem from="1513242836619" duration="24067000" />
+      <workItem from="1513346751073" duration="22826000" />
+      <workItem from="1513411919154" duration="125000" />
+      <workItem from="1513417510653" duration="90000" />
+      <workItem from="1513427547578" duration="1550000" />
+      <workItem from="1513431026820" duration="598000" />
+      <workItem from="1513439671552" duration="20198000" />
+      <workItem from="1513466885197" duration="1049000" />
+      <workItem from="1513512273793" duration="679000" />
+      <workItem from="1513518695899" duration="4421000" />
+      <workItem from="1513538332355" duration="22616000" />
+      <workItem from="1513601759500" duration="459000" />
+      <workItem from="1513609511886" duration="4787000" />
+      <workItem from="1513674986927" duration="462000" />
+      <workItem from="1513678002333" duration="42000" />
+      <workItem from="1513710127200" duration="418000" />
+      <workItem from="1513711999983" duration="14261000" />
+      <workItem from="1513760227585" duration="1390000" />
+      <workItem from="1513878739643" duration="44000" />
+      <workItem from="1514672099646" duration="101000" />
+      <workItem from="1514675226229" duration="1175000" />
+      <workItem from="1514725497815" duration="1076000" />
+      <workItem from="1514727265083" duration="4080000" />
+      <workItem from="1514840882982" duration="38000" />
+      <workItem from="1514925551979" duration="142000" />
+      <workItem from="1515043552576" duration="71000" />
+      <workItem from="1515053921669" duration="15000" />
+      <workItem from="1515054152737" duration="853000" />
+      <workItem from="1515061386736" duration="542000" />
+      <workItem from="1515066226461" duration="25000" />
+      <workItem from="1515069840858" duration="20000" />
+      <workItem from="1515145943001" duration="39000" />
+      <workItem from="1515229046697" duration="23000" />
+      <workItem from="1515264551867" duration="22000" />
+      <workItem from="1515333918076" duration="78000" />
+      <workItem from="1515334004361" duration="20000" />
+      <workItem from="1515334086036" duration="86000" />
+      <workItem from="1515677414972" duration="22000" />
+      <workItem from="1515844027510" duration="62000" />
+      <workItem from="1515848307085" duration="36000" />
+      <workItem from="1515953930838" duration="89000" />
+      <workItem from="1516095765389" duration="627000" />
+      <workItem from="1516140099409" duration="6000" />
+      <workItem from="1519575747625" duration="184000" />
+      <workItem from="1519575950382" duration="296000" />
+      <workItem from="1519592762062" duration="84000" />
+      <workItem from="1519666799620" duration="6000" />
+      <workItem from="1520548741195" duration="590000" />
+      <workItem from="1520805233045" duration="210000" />
+      <workItem from="1520962889955" duration="22000" />
+      <workItem from="1520963684319" duration="1090000" />
+      <workItem from="1520971349222" duration="273000" />
+      <workItem from="1520971638872" duration="114000" />
+      <workItem from="1520971767843" duration="6152000" />
+      <workItem from="1520986118258" duration="4000" />
+      <workItem from="1521365590537" duration="42000" />
+      <workItem from="1521415555416" duration="98000" />
+      <workItem from="1522013210819" duration="47000" />
+      <workItem from="1522105776732" duration="20000" />
+      <workItem from="1522268243123" duration="3705000" />
+      <workItem from="1522959144882" duration="202000" />
+      <workItem from="1522962095993" duration="4000" />
+      <workItem from="1523219871492" duration="44000" />
+      <workItem from="1523220128047" duration="835000" />
+      <workItem from="1523221034450" duration="425000" />
+      <workItem from="1523221464615" duration="3084000" />
+      <workItem from="1523309132018" duration="813000" />
+      <workItem from="1523354207371" duration="2943000" />
+      <workItem from="1523370625992" duration="23420000" />
+      <workItem from="1523406002299" duration="2102000" />
+      <workItem from="1523410223051" duration="1083000" />
+      <workItem from="1523576177084" duration="56000" />
+      <workItem from="1525289930417" duration="14531000" />
+      <workItem from="1525640386639" duration="31000" />
+      <workItem from="1525783712733" duration="23878000" />
+      <workItem from="1525818896823" duration="24000" />
+      <workItem from="1526055838217" duration="2419000" />
+      <workItem from="1526065569874" duration="6509000" />
+      <workItem from="1526119191450" duration="24618000" />
+      <workItem from="1526168041001" duration="226000" />
+      <workItem from="1526168575513" duration="114000" />
+      <workItem from="1526169342270" duration="188000" />
+      <workItem from="1526405137059" duration="30889000" />
+      <workItem from="1526496784728" duration="93000" />
+      <workItem from="1526505099677" duration="5813000" />
+      <workItem from="1526511092042" duration="40000" />
+      <workItem from="1526511401007" duration="35000" />
+      <workItem from="1526544311504" duration="1729000" />
+      <workItem from="1526639867281" duration="39000" />
+      <workItem from="1526674495938" duration="10979000" />
+      <workItem from="1526687716582" duration="1974000" />
+      <workItem from="1526725572380" duration="1800000" />
+      <workItem from="1526738380983" duration="8490000" />
+      <workItem from="1526747121100" duration="1778000" />
+      <workItem from="1526750203560" duration="683000" />
+      <workItem from="1526756178845" duration="1373000" />
+      <workItem from="1526765065912" duration="60000" />
+      <workItem from="1526765169727" duration="11000" />
+      <workItem from="1526822348936" duration="41702000" />
+      <workItem from="1526931319068" duration="14865000" />
+      <workItem from="1526947763772" duration="7705000" />
+      <workItem from="1526994896390" duration="25190000" />
+      <workItem from="1527035007761" duration="945000" />
+      <workItem from="1527068217545" duration="9643000" />
+      <workItem from="1527082560803" duration="2178000" />
+      <workItem from="1527089590839" duration="2590000" />
+      <workItem from="1527098548809" duration="23000" />
+      <workItem from="1527099079633" duration="21000" />
+      <workItem from="1527100987161" duration="3557000" />
+      <workItem from="1527166589953" duration="17000" />
+      <workItem from="1527188898397" duration="12531000" />
+      <workItem from="1527275956794" duration="9828000" />
+      <workItem from="1527332562078" duration="22712000" />
+      <workItem from="1527366908739" duration="16883000" />
+      <workItem from="1527432233961" duration="11550000" />
+      <workItem from="1527454445911" duration="19724000" />
+      <workItem from="1527506875699" duration="440000" />
+      <workItem from="1527521963955" duration="5270000" />
+      <workItem from="1527527734770" duration="105000" />
+      <workItem from="1527547441751" duration="605000" />
+      <workItem from="1527603572440" duration="23901000" />
+      <workItem from="1527678156458" duration="3680000" />
+      <workItem from="1527687177600" duration="1080000" />
+      <workItem from="1527709370988" duration="14952000" />
+      <workItem from="1527758715084" duration="2066000" />
+      <workItem from="1527770508366" duration="513000" />
+      <workItem from="1527771375438" duration="899000" />
+      <workItem from="1527774404937" duration="1396000" />
+      <workItem from="1527782053952" duration="1081000" />
+      <workItem from="1527856594589" duration="910000" />
+      <workItem from="1527857740892" duration="35000" />
+      <workItem from="1527986794780" duration="52000" />
+      <workItem from="1528017254835" duration="34000" />
+      <workItem from="1528122199387" duration="1300000" />
+      <workItem from="1528181197986" duration="26000" />
+      <workItem from="1528229880876" duration="632000" />
+      <workItem from="1528282300895" duration="110000" />
+      <workItem from="1528288046216" duration="20000" />
+      <workItem from="1528628901922" duration="40000" />
+      <workItem from="1529098209949" duration="313000" />
+      <workItem from="1529236177080" duration="5000" />
+      <workItem from="1529405801407" duration="101000" />
+      <workItem from="1529444947048" duration="2590000" />
+      <workItem from="1529448022299" duration="9000" />
+      <workItem from="1529537717502" duration="25000" />
+      <workItem from="1529606510258" duration="32000" />
+    </task>
+    <task id="LOCAL-00187" summary="gnb">
+      <created>1527286098126</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1527286098126</updated>
+    </task>
+    <task id="LOCAL-00188" summary="partial block">
+      <created>1527291013858</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1527291013858</updated>
+    </task>
+    <task id="LOCAL-00189" summary="gui">
+      <created>1527349151532</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1527349151533</updated>
+    </task>
+    <task id="LOCAL-00190" summary="gui">
+      <created>1527361699320</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1527361699320</updated>
+    </task>
+    <task id="LOCAL-00191" summary="server gui ok">
+      <created>1527366145458</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1527366145458</updated>
+    </task>
+    <task id="LOCAL-00192" summary="server gui">
+      <created>1527368352748</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1527368352749</updated>
+    </task>
+    <task id="LOCAL-00193" summary="server gui">
+      <created>1527368745056</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1527368745056</updated>
+    </task>
+    <task id="LOCAL-00194" summary="miner gui">
+      <created>1527380747558</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380747558</updated>
+    </task>
+    <task id="LOCAL-00195" summary="miner non gui">
+      <created>1527439466590</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1527439466591</updated>
+    </task>
+    <task id="LOCAL-00196" summary="miner">
+      <created>1527440365592</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1527440365592</updated>
+    </task>
+    <task id="LOCAL-00197" summary="isTxInPool -&gt; atomic">
+      <created>1527442103013</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1527442103013</updated>
+    </task>
+    <task id="LOCAL-00198" summary="seq">
+      <created>1527452668130</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1527452668130</updated>
+    </task>
+    <task id="LOCAL-00199" summary="seq">
+      <created>1527458478492</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1527458478493</updated>
+    </task>
+    <task id="LOCAL-00200" summary="seq">
+      <created>1527462136250</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1527462136254</updated>
+    </task>
+    <task id="LOCAL-00201" summary="seq">
+      <created>1527463329962</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1527463329962</updated>
+    </task>
+    <task id="LOCAL-00202" summary="crypto">
+      <created>1527468962399</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1527468962399</updated>
+    </task>
+    <task id="LOCAL-00203" summary="fj">
+      <created>1527474024818</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1527474024818</updated>
+    </task>
+    <task id="LOCAL-00204" summary="txhandler">
+      <created>1527474092401</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1527474092401</updated>
+    </task>
+    <task id="LOCAL-00205" summary="vote speedup&#10;&#10;500&#10;---&#10;366.960338&#10;765.476037&#10;&#10;1000&#10;-----&#10;Total execution time: 1580.587689ms&#10;+Total execution time: 374.83094ms&#10;&#10;&#10;2500&#10;-----&#10;Total execution time: 4004.029234ms&#10;+Total execution time: 1178.063107ms">
+      <created>1527524970628</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1527524970628</updated>
+    </task>
+    <task id="LOCAL-00206" summary="c">
+      <created>1527526749525</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1527526749526</updated>
+    </task>
+    <task id="LOCAL-00207" summary="miner">
+      <created>1527527081253</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1527527081253</updated>
+    </task>
+    <task id="LOCAL-00208" summary="remove todo. last commit :)">
+      <created>1527527142966</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1527527142966</updated>
+    </task>
+    <task id="LOCAL-00209" summary="txhandler">
+      <created>1527527828546</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1527527828546</updated>
+    </task>
+    <task id="LOCAL-00210" summary="connectme">
+      <created>1527619002808</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1527619002813</updated>
+    </task>
+    <task id="LOCAL-00211" summary="last...">
+      <created>1527634236159</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1527634236160</updated>
+    </task>
+    <task id="LOCAL-00212" summary="cleanup">
+      <created>1527634516029</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1527634516029</updated>
+    </task>
+    <task id="LOCAL-00213" summary="cleanup">
+      <created>1527635468103</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1527635468103</updated>
+    </task>
+    <task id="LOCAL-00214" summary="block period">
+      <created>1527675675770</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1527675675771</updated>
+    </task>
+    <task id="LOCAL-00215" summary="miner connection handler">
+      <created>1527714659719</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1527714659720</updated>
+    </task>
+    <task id="LOCAL-00216" summary="connection handler">
+      <created>1527718294173</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1527718294173</updated>
+    </task>
+    <task id="LOCAL-00217" summary="email">
+      <created>1527718815575</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1527718815575</updated>
+    </task>
+    <task id="LOCAL-00218" summary="tester">
+      <created>1527719088663</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1527719088663</updated>
+    </task>
+    <task id="LOCAL-00219" summary="done! :)">
+      <created>1527719507872</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1527719507872</updated>
+    </task>
+    <task id="LOCAL-00220" summary="miner cli...">
+      <created>1527720287432</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1527720287432</updated>
+    </task>
+    <task id="LOCAL-00221" summary="server conn fix">
+      <created>1527722452107</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1527722452107</updated>
+    </task>
+    <task id="LOCAL-00222" summary="ffff">
+      <created>1527723751195</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1527723751195</updated>
+    </task>
+    <task id="LOCAL-00223" summary="ffff">
+      <created>1527724181235</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1527724181235</updated>
+    </task>
+    <task id="LOCAL-00224" summary="ffff">
+      <created>1527770851184</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1527770851186</updated>
+    </task>
+    <task id="LOCAL-00225" summary="mailman">
+      <created>1527774486934</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1527774486935</updated>
+    </task>
+    <task id="LOCAL-00226" summary="mailman">
+      <created>1527775786229</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1527775786229</updated>
+    </task>
+    <task id="LOCAL-00227" summary="get miners">
+      <created>1527782904391</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1527782904392</updated>
+    </task>
+    <task id="LOCAL-00228" summary="get miners">
+      <created>1527783065869</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1527783065869</updated>
+    </task>
+    <task id="LOCAL-00229" summary="dispatcher">
+      <created>1527783117579</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1527783117579</updated>
+    </task>
+    <task id="LOCAL-00230" summary="todo">
+      <created>1527856667587</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1527856667589</updated>
+    </task>
+    <task id="LOCAL-00231" summary="todo">
+      <created>1527857311799</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1527857311799</updated>
+    </task>
+    <task id="LOCAL-00232" summary="todo">
+      <created>1528122436911</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1528122436911</updated>
+    </task>
+    <task id="LOCAL-00233" summary="token olayı kullanıcıdan gizlendi">
+      <created>1529098509429</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1529098509430</updated>
+    </task>
+    <task id="LOCAL-00234" summary="last...">
+      <created>1529447015610</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1529447015611</updated>
+    </task>
+    <task id="LOCAL-00235" summary="seqtestclient">
+      <created>1529447514040</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1529447514040</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="713707000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3261105" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026624" side_tool="true" weight="0.3716143" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32960597" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49733758" weight="0.30119178" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32827735" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1544196" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" weight="0.32911393" />
+      <window_info anchor="right" id="Database" order="4" weight="0.24920128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39869988" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3347779" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32936078" />
+      <window_info anchor="right" id="PlantUML" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="PlantUML" order="6" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49733758" visible="true" weight="0.41061756" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32936078" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026624" side_tool="true" weight="0.3716143" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3347779" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" weight="0.32911393" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32960597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21299255" />
+      <window_info anchor="right" id="Database" order="4" weight="0.24920128" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32719395" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39869988" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="crypto" />
+    <MESSAGE value="fj" />
+    <MESSAGE value="vote speedup&#10;&#10;500&#10;---&#10;366.960338&#10;765.476037&#10;&#10;1000&#10;-----&#10;Total execution time: 1580.587689ms&#10;+Total execution time: 374.83094ms&#10;&#10;&#10;2500&#10;-----&#10;Total execution time: 4004.029234ms&#10;+Total execution time: 1178.063107ms" />
+    <MESSAGE value="c" />
+    <MESSAGE value="miner" />
+    <MESSAGE value="remove todo. last commit :)" />
+    <MESSAGE value="txhandler" />
+    <MESSAGE value="connectme" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="block period" />
+    <MESSAGE value="miner connection handler" />
+    <MESSAGE value="connection handler" />
+    <MESSAGE value="email" />
+    <MESSAGE value="tester" />
+    <MESSAGE value="done! :)" />
+    <MESSAGE value="miner cli..." />
+    <MESSAGE value="server conn fix" />
+    <MESSAGE value="ffff" />
+    <MESSAGE value="mailman" />
+    <MESSAGE value="get miners" />
+    <MESSAGE value="dispatcher" />
+    <MESSAGE value="todo" />
+    <MESSAGE value="token olayı kullanıcıdan gizlendi" />
+    <MESSAGE value="last..." />
+    <MESSAGE value="seqtestclient" />
+    <option name="LAST_COMMIT_MESSAGE" value="seqtestclient" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="53" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/Miner">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Miner</OriginalElement>
+          <nodes>
+            <node x="1028.3271097046418" y="80.0">Miner.BlockChain.TxHandler</node>
+            <node x="553.261241711875" y="280.0">Miner.MinerDBHandler</node>
+            <node x="106.79166666666669" y="280.0">Miner.Requests.Request</node>
+            <node x="46.261241711874845" y="510.0">Miner.Requests.SendSECmd</node>
+            <node x="868.8771097046417" y="170.0">Miner.BlockChain.BlockChain</node>
+            <node x="312.23068113321324" y="650.0">Miner.P2P</node>
+            <node x="910.5771097046415" y="410.0">Miner.BlockChain.BlockChainHandler</node>
+            <node x="443.4055605786618" y="0.0">Miner.MinerKeyKeeper</node>
+            <node x="975.0771097046417" y="280.0">Miner.BlockChain.BlockChainHandler.VoteCounter</node>
+            <node x="0.0" y="895.0">Miner.ConnectionHandler.MinerConnectionHandler</node>
+            <node x="355.2612417118749" y="510.0">Miner.Requests.SendBlocksAfter</node>
+            <node x="802.5163954189276" y="820.0">Miner.MinerMain</node>
+            <node x="192.2612417118749" y="510.0">Miner.Requests.SendLastBlock</node>
+            <node x="1036.9937763713083" y="0.0">Miner.BlockChain.TxHandler.ParTxHandler</node>
+            <node x="180.90556057866172" y="410.0">Miner.Requests.AbstractRequest</node>
+            <node x="738.6866335141655" y="80.0">Miner.BlockChain.TransactionPool</node>
+            <node x="910.6866335141655" y="80.0">Miner.BlockChain.BlockChain.Node</node>
+            <node x="838.4055605786618" y="650.0">Miner.CommandHandler.AuditCommandHandler</node>
+            <node x="745.8148131404464" y="510.0">Miner.CommandHandler.CommandHandler</node>
+            <node x="647.5163954189276" y="820.0">Miner.MinerMainCLI</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Miner.MinerMain" target="Miner.P2P">
+              <point x="-50.3125" y="-15.0" />
+              <point x="809.7038954189276" y="740.0" />
+              <point x="366.23068113321324" y="740.0" />
+              <point x="18.0" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChainHandler" target="Miner.BlockChain.BlockChain">
+              <point x="8.600000000000023" y="-15.0" />
+              <point x="1005.1771097046417" y="340.0" />
+              <point x="964.5771097046417" y="340.0" />
+              <point x="964.5771097046417" y="260.0" />
+              <point x="977.7771097046416" y="260.0" />
+              <point x="48.39999999999998" y="15.0" />
+            </edge>
+            <edge source="Miner.CommandHandler.CommandHandler" target="Miner.MinerKeyKeeper">
+              <point x="-55.33333333333337" y="-15.0" />
+              <point x="773.481479807113" y="490.0" />
+              <point x="531.761241711875" y="490.0" />
+              <point x="531.761241711875" y="60.0" />
+              <point x="533.8222272453283" y="60.0" />
+              <point x="12.916666666666629" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.MinerKeyKeeper">
+              <point x="-33.0" y="-15.0" />
+              <point x="315.23068113321324" y="630.0" />
+              <point x="14.826989150090526" y="630.0" />
+              <point x="14.826989150090526" y="60.0" />
+              <point x="482.1555605786618" y="60.0" />
+              <point x="-38.75" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.TxHandler.ParTxHandler" target="Miner.BlockChain.TxHandler">
+              <point x="34.0" y="15.0" />
+              <point x="1138.9937763713083" y="60.0" />
+              <point x="1124.1604430379748" y="60.0" />
+              <point x="38.33333333333326" y="-15.0" />
+            </edge>
+            <edge source="Miner.MinerMainCLI" target="Miner.CommandHandler.AuditCommandHandler">
+              <point x="25.3125" y="-15.0" />
+              <point x="740.3288954189276" y="750.0" />
+              <point x="888.4055605786618" y="750.0" />
+              <point x="-50.0" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.Requests.Request">
+              <point x="-27.0" y="-15.0" />
+              <point x="321.23068113321324" y="620.0" />
+              <point x="35.761241711874845" y="620.0" />
+              <point x="35.761241711874845" y="390.0" />
+              <point x="132.04166666666669" y="390.0" />
+              <point x="-25.25" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChainHandler" target="Miner.BlockChain.BlockChainHandler.VoteCounter">
+              <point x="25.799999999999955" y="-15.0" />
+              <point x="1022.3771097046415" y="330.0" />
+              <point x="996.5771097046417" y="330.0" />
+              <point x="-43.0" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChainHandler.VoteCounter" target="Miner.BlockChain.BlockChainHandler">
+              <point x="43.0" y="15.0" />
+              <point x="1082.5771097046418" y="380.0" />
+              <point x="1056.7771097046416" y="380.0" />
+              <point x="60.200000000000045" y="-15.0" />
+            </edge>
+            <edge source="Miner.CommandHandler.AuditCommandHandler" target="Miner.CommandHandler.CommandHandler">
+              <point x="-66.66666666666674" y="-15.0" />
+              <point x="871.7388939119951" y="630.0" />
+              <point x="876.2433845690178" y="630.0" />
+              <point x="47.428571428571445" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.Requests.SendSECmd">
+              <point x="-15.0" y="-15.0" />
+              <point x="333.23068113321324" y="600.0" />
+              <point x="140.76124171187485" y="600.0" />
+              <point x="31.5" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerDBHandler" target="Miner.BlockChain.BlockChain">
+              <point x="38.5" y="-15.0" />
+              <point x="668.761241711875" y="250.0" />
+              <point x="880.9771097046416" y="250.0" />
+              <point x="-48.39999999999998" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMain" target="Miner.BlockChain.BlockChainHandler">
+              <point x="35.9375" y="-15.0" />
+              <point x="895.9538954189276" y="790.0" />
+              <point x="1128.0305605786618" y="790.0" />
+              <point x="1128.0305605786618" y="470.0" />
+              <point x="1045.7199668474987" y="470.0" />
+              <point x="49.14285714285711" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.TxHandler" target="Miner.BlockChain.TxHandler.ParTxHandler">
+              <point x="0.0" y="-15.0" />
+              <point x="1085.8271097046418" y="60.0" />
+              <point x="1070.9937763713083" y="60.0" />
+              <point x="-34.0" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChainHandler" target="Miner.BlockChain.TxHandler">
+              <point x="77.40000000000009" y="-15.0" />
+              <point x="1073.9771097046416" y="390.0" />
+              <point x="1114.5771097046418" y="390.0" />
+              <point x="28.75" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.BlockChain.BlockChain">
+              <point x="27.0" y="-15.0" />
+              <point x="375.23068113321324" y="600.0" />
+              <point x="735.3148131404464" y="600.0" />
+              <point x="735.3148131404464" y="260.0" />
+              <point x="905.1771097046417" y="260.0" />
+              <point x="-24.200000000000045" y="15.0" />
+            </edge>
+            <edge source="Miner.Requests.SendLastBlock" target="Miner.Requests.AbstractRequest">
+              <point x="35.75" y="-15.0" />
+              <point x="299.5112417118749" y="490.0" />
+              <point x="271.3222272453284" y="490.0" />
+              <point x="12.916666666666686" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMain" target="Miner.MinerDBHandler">
+              <point x="-21.5625" y="-15.0" />
+              <point x="838.4538954189276" y="720.0" />
+              <point x="611.9306811332133" y="720.0" />
+              <point x="611.9306811332133" y="390.0" />
+              <point x="630.261241711875" y="390.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.MinerDBHandler">
+              <point x="21.0" y="-15.0" />
+              <point x="369.23068113321324" y="590.0" />
+              <point x="584.575" y="590.0" />
+              <point x="584.575" y="390.0" />
+              <point x="568.6612417118749" y="390.0" />
+              <point x="-61.60000000000002" y="15.0" />
+            </edge>
+            <edge source="Miner.CommandHandler.AuditCommandHandler" target="Miner.BlockChain.BlockChainHandler">
+              <point x="66.66666666666663" y="-15.0" />
+              <point x="1005.0722272453283" y="630.0" />
+              <point x="989.5175858951178" y="630.0" />
+              <point x="989.5175858951178" y="490.0" />
+              <point x="972.0056811332131" y="490.0" />
+              <point x="-24.571428571428555" y="15.0" />
+            </edge>
+            <edge source="Miner.Requests.SendBlocksAfter" target="Miner.Requests.AbstractRequest">
+              <point x="-38.75" y="-15.0" />
+              <point x="394.0112417118749" y="480.0" />
+              <point x="297.1555605786617" y="480.0" />
+              <point x="38.75" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMain" target="Miner.CommandHandler.AuditCommandHandler">
+              <point x="21.5625" y="-15.0" />
+              <point x="881.5788954189276" y="760.0" />
+              <point x="988.4055605786618" y="760.0" />
+              <point x="50.0" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMainCLI" target="Miner.P2P">
+              <point x="-42.1875" y="-15.0" />
+              <point x="672.8288954189276" y="790.0" />
+              <point x="330.23068113321324" y="790.0" />
+              <point x="-18.0" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChainHandler" target="Miner.MinerKeyKeeper">
+              <point x="-43.0" y="-15.0" />
+              <point x="953.5771097046415" y="370.0" />
+              <point x="724.3148131404464" y="370.0" />
+              <point x="724.3148131404464" y="220.0" />
+              <point x="638.2842525617847" y="220.0" />
+              <point x="638.2842525617847" y="60.0" />
+              <point x="559.6555605786618" y="60.0" />
+              <point x="38.75" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMainCLI" target="Miner.MinerDBHandler">
+              <point x="-25.3125" y="-15.0" />
+              <point x="689.7038954189276" y="780.0" />
+              <point x="595.575" y="780.0" />
+              <point x="595.575" y="390.0" />
+              <point x="599.461241711875" y="390.0" />
+              <point x="-30.799999999999955" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.BlockChain.TransactionPool">
+              <point x="15.0" y="-15.0" />
+              <point x="363.23068113321324" y="580.0" />
+              <point x="542.761241711875" y="580.0" />
+              <point x="542.761241711875" y="230.0" />
+              <point x="663.4269891500905" y="230.0" />
+              <point x="663.4269891500905" y="140.0" />
+              <point x="753.8866335141655" y="140.0" />
+              <point x="-60.799999999999955" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMainCLI" target="Miner.MinerKeyKeeper">
+              <point x="-59.0625" y="-15.0" />
+              <point x="655.9538954189276" y="800.0" />
+              <point x="0.0" y="800.0" />
+              <point x="0.0" y="50.0" />
+              <point x="456.32222724532846" y="50.0" />
+              <point x="-64.58333333333331" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.Requests.SendBlocksAfter">
+              <point x="9.0" y="-15.0" />
+              <point x="357.23068113321324" y="570.0" />
+              <point x="471.5112417118749" y="570.0" />
+              <point x="38.75" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMainCLI" target="Miner.CommandHandler.CommandHandler">
+              <point x="8.4375" y="-15.0" />
+              <point x="723.4538954189276" y="800.0" />
+              <point x="726.4055605786618" y="800.0" />
+              <point x="726.4055605786618" y="630.0" />
+              <point x="805.1005274261606" y="630.0" />
+              <point x="-23.71428571428578" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChainHandler" target="Miner.MinerDBHandler">
+              <point x="-77.39999999999998" y="-15.0" />
+              <point x="919.1771097046417" y="390.0" />
+              <point x="661.0612417118749" y="390.0" />
+              <point x="30.799999999999955" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.Requests.SendLastBlock">
+              <point x="-9.0" y="-15.0" />
+              <point x="339.23068113321324" y="590.0" />
+              <point x="228.0112417118749" y="590.0" />
+              <point x="-35.75" y="15.0" />
+            </edge>
+            <edge source="Miner.Requests.AbstractRequest" target="Miner.Requests.Request">
+              <point x="0.0" y="-15.0" />
+              <point x="258.4055605786617" y="390.0" />
+              <point x="182.54166666666669" y="390.0" />
+              <point x="25.25" y="15.0" />
+            </edge>
+            <edge source="Miner.CommandHandler.CommandHandler" target="Miner.BlockChain.BlockChainHandler">
+              <point x="55.33333333333337" y="-15.0" />
+              <point x="884.1481464737798" y="490.0" />
+              <point x="947.4342525617844" y="490.0" />
+              <point x="-49.14285714285711" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMain" target="Miner.CommandHandler.CommandHandler">
+              <point x="7.1875" y="-15.0" />
+              <point x="867.2038954189276" y="700.0" />
+              <point x="827.9055605786618" y="700.0" />
+              <point x="827.9055605786618" y="630.0" />
+              <point x="852.5290988547321" y="630.0" />
+              <point x="23.714285714285666" y="15.0" />
+            </edge>
+            <edge source="Miner.Requests.SendSECmd" target="Miner.Requests.AbstractRequest">
+              <point x="-31.5" y="-15.0" />
+              <point x="77.76124171187485" y="480.0" />
+              <point x="193.8222272453284" y="480.0" />
+              <point x="-64.58333333333331" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChain" target="Miner.BlockChain.TransactionPool">
+              <point x="-51.85714285714289" y="-15.0" />
+              <point x="877.5199668474988" y="150.0" />
+              <point x="814.6866335141655" y="150.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerDBHandler" target="Miner.BlockChain.BlockChainHandler">
+              <point x="61.60000000000002" y="15.0" />
+              <point x="691.861241711875" y="380.0" />
+              <point x="936.3771097046417" y="380.0" />
+              <point x="-60.19999999999993" y="-15.0" />
+            </edge>
+            <edge source="Miner.MinerMain" target="Miner.MinerKeyKeeper">
+              <point x="-35.9375" y="-15.0" />
+              <point x="824.0788954189276" y="730.0" />
+              <point x="520.761241711875" y="730.0" />
+              <point x="520.761241711875" y="60.0" />
+              <point x="507.98889391199515" y="60.0" />
+              <point x="-12.916666666666629" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerMainCLI" target="Miner.BlockChain.BlockChainHandler">
+              <point x="59.0625" y="-15.0" />
+              <point x="774.0788954189276" y="780.0" />
+              <point x="1059.9055605786618" y="780.0" />
+              <point x="1059.9055605786618" y="480.0" />
+              <point x="1021.1485382760702" y="480.0" />
+              <point x="24.57142857142867" y="15.0" />
+            </edge>
+            <edge source="Miner.P2P" target="Miner.CommandHandler.CommandHandler">
+              <point x="33.0" y="-15.0" />
+              <point x="381.23068113321324" y="610.0" />
+              <point x="757.6719559975893" y="610.0" />
+              <point x="-71.14285714285711" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChain" target="Miner.BlockChain.TxHandler">
+              <point x="51.85714285714289" y="-15.0" />
+              <point x="981.2342525617846" y="150.0" />
+              <point x="1057.0771097046418" y="150.0" />
+              <point x="-28.75" y="15.0" />
+            </edge>
+            <edge source="Miner.MinerDBHandler" target="Miner.BlockChain.TransactionPool">
+              <point x="-38.5" y="-15.0" />
+              <point x="591.761241711875" y="240.0" />
+              <point x="680.5769891500906" y="240.0" />
+              <point x="680.5769891500906" y="150.0" />
+              <point x="784.2866335141655" y="150.0" />
+              <point x="-30.399999999999977" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.BlockChain" target="Miner.BlockChain.BlockChain.Node">
+              <point x="17.28571428571422" y="-15.0" />
+              <point x="946.662823990356" y="150.0" />
+              <point x="951.6866335141655" y="150.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="Miner.BlockChain.TxHandler" target="Miner.MinerKeyKeeper">
+              <point x="-38.33333333333326" y="-15.0" />
+              <point x="1047.4937763713083" y="50.0" />
+              <point x="585.4888939119951" y="50.0" />
+              <point x="64.58333333333326" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="464.0" y="439.0" />
+          <SelectedNodes>
+            <node>Miner.BlockChain.TxHandler</node>
+            <node>Miner.MinerDBHandler</node>
+            <node>Miner.Requests.SendSECmd</node>
+            <node>Miner.BlockChain.BlockChain</node>
+            <node>Miner.P2P</node>
+            <node>Miner.BlockChain.BlockChainHandler</node>
+            <node>Miner.MinerKeyKeeper</node>
+            <node>Miner.BlockChain.BlockChainHandler.VoteCounter</node>
+            <node>Miner.ConnectionHandler.MinerConnectionHandler</node>
+            <node>Miner.Requests.SendBlocksAfter</node>
+            <node>Miner.MinerMain</node>
+            <node>Miner.Requests.SendLastBlock</node>
+            <node>Miner.BlockChain.TxHandler.ParTxHandler</node>
+            <node>Miner.Requests.AbstractRequest</node>
+            <node>Miner.BlockChain.TransactionPool</node>
+            <node>Miner.BlockChain.BlockChain.Node</node>
+            <node>Miner.CommandHandler.AuditCommandHandler</node>
+            <node>Miner.CommandHandler.CommandHandler</node>
+            <node>Miner.MinerMainCLI</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Command/GenerateNextBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/Dispatcher/DispatcherThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ServerKeyKeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_161/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_161/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="3770" selection-start-line="3770" selection-end-line="3770" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="270" column="29" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/tuple/MutablePair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/tuple/Pair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Block/BlockFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/ConnectionHandler/ConnectionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ResponseMonitor/GetVoteResponseMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/simplejavamail/simple-java-mail/5.0.3/simple-java-mail-5.0.3.jar!/org/simplejavamail/mailer/Mailer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/Requests/AbstractRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ConnectionHandler/ServerConnectionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/CommandHandler/CommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/MinerDBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ServerEmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1.jar!/org/sqlite/jdbc3/JDBC3Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="60" column="107" selection-start-line="60" selection-start-column="107" selection-end-line="60" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/Registrar/Authenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="98" selection-start-line="5" selection-start-column="98" selection-end-line="5" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ServerDBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/MinerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/Registrar/Registrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ConnectionHandler/ConnectionHandlerThread/ClientConnectionThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ConnectionHandler/ConnectionHandlerThread/MinerConnectionThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/ServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/Server/Dispatcher/DispatcherMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="109" column="62" selection-start-line="109" selection-start-column="62" selection-end-line="109" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt" />
+    <entry file="jar:///usr/java/jdk1.8.0_161/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Transaction/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Transaction/ITransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/MinerMainCLI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/MinerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/ConnectionHandler/MinerConnectionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/BlockChain/TransactionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_161/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="693" column="6" lean-forward="true" selection-start-line="693" selection-start-column="6" selection-end-line="693" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Client/GUI_v2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12886">
+          <caret line="804" column="42" selection-start-line="804" selection-start-column="42" selection-end-line="804" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Block/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Token/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/ByteArrayWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Transaction/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/BlockChain/BlockChainHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="71" column="121" selection-start-line="71" selection-start-column="121" selection-end-line="71" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/P2P.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="144" column="71" selection-start-line="144" selection-start-column="71" selection-end-line="144" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/Common/Transaction/TokenCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/BlockChain/TxHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miner/src/Miner/BlockChain/BlockChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Client/SeqTestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1541">
+          <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>Miner:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.commons:commons-lang3:3.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
